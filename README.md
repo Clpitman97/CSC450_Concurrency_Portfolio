@@ -1,17 +1,17 @@
 # CSC450 Concurrency Portfolio
 
-This repository contains a C++ multithreading program.
+This repository contains C++ and Java multithreading applications developed for the CSC450 Programming III portfolio project.
 
 ## Program Description
 
-The program uses two threads to perform separate counting operations. The first thread counts from 0 to 20, while the second counts backward from 20 to 0. The `join()` function ensures that the first thread finishes before the second begins.
+Both applications use two threads to perform sequential counting operations. The first thread counts from 0 to 20, while the second counts backward from 20 to 0. The `join()` method ensures that the first thread finishes before the second begins.
 
 ## Development Environment
 
-- C++
-- Eclipse CDT
-- MinGW GCC
+- **C++:** Eclipse CDT, MinGW GCC
+- **Java:** Eclipse IDE, Java SE 25
 
-## Future Development
+## Source Files
 
-A Java implementation will be added as part of the final portfolio project.
+- `ConcurrencyCounter.cpp` – C++ implementation using `std::thread`.
+- `ConcurrencyCounter.java` – Java implementation using the `Thread` class.
